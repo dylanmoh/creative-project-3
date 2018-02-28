@@ -1,0 +1,189 @@
+body {
+	margin: 0;
+}
+
+.title {
+	margin-top: 0;
+	text-align: center; 
+}
+
+.wrap {
+	width: 890px;
+	margin: auto;
+}
+
+.results {
+    margin: 1em 0;
+    height: 580px;
+    margin-bottom: 80px;
+}
+
+.left-wrap {
+	border: solid 2px black;
+	border-right: solid 1px black;
+	float: left;
+	height: 100%;
+	width: calc(50% - 8px);
+	background: red;
+}
+
+.scanner-wrap {
+	height: calc(15% - 16px);
+	padding: 8px;
+}
+
+.scanner-big-circle {
+    height: calc(100% - 6px);
+    background: #0099ff;
+    width: 62px;
+    border-radius: 100%;
+    border: solid 3px white
+}
+
+.portrait-wrap {
+	height: 55%;
+}
+
+.image-wrap {
+	height: calc(100% - 60px);
+    padding: 30px;
+    margin: 0 20px;
+    background: #efefef;
+}
+
+.image-screen {
+	height: 100%;
+    background: black;
+}
+
+.screen {
+	height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gameboy-buttons-wrap {
+	height: 30%;
+}
+
+.divider {
+	height: 500px;
+	margin-top: 81px;
+	float: left;
+	width: 8px;
+	background: red;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+.right-wrap {
+	margin-top: 80px;
+	border: solid 2px black;
+	border-left: solid 1px black;
+	float: left;
+	height: 500px;
+	width: calc(50% - 8px);
+	background: red;
+}
+
+.info {
+	background: black;
+    border: solid 1px lightgray;
+    height: 25%;
+    margin: 20px;
+    border-radius: 8%;
+    padding: 10px;
+}
+.info label {
+	color: white;
+	display: block;
+	line-height: 28px;
+}
+.types {
+	height: 25%;
+    background: #0099ff;
+    margin: 20px;
+}
+
+.types-list {
+	list-style: none;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.type-item {
+	float: left;
+	width: calc(20% - 2px);
+    height: calc(50% - 2px);
+    border: solid 1px black;
+    text-align: center;
+    color: white;
+}
+
+.type-item p {
+	margin: 0;
+	line-height: 63px;
+}
+
+.image-toggle-wrap {
+	height: calc(20% - 40px);
+	margin: 0 20px;
+}
+
+.image-toggle {
+	width: 20%;
+    background: #efefef;
+    height: calc(100% - 2px);
+    border: solid 1px black;
+    float: left;
+    cursor: pointer;
+}
+
+.image-toggle p {
+	font-size: 30px;
+    margin: 0;
+    line-height: 60px;
+    text-align: center;
+}
+
+.bottom-right-wrap {
+	height: calc(30% - 40px);
+}
+
+.image-info {
+	height: calc(100% - 42px);
+    background: black;
+    border: solid 1px lightgray;
+    border-radius: 5%;
+    margin: 20px;
+    width: calc(50% - 42px);
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+.image-info p {
+	line-height: 70px;
+    margin: 0;
+}
+
+.portrait {
+	height: 300px;
+	width: 300px;
+}
+
+.portrait img {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+}
+
+footer {
+	width: 100%;
+    background: gray;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+}
